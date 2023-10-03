@@ -1,0 +1,124 @@
+.card{
+    position: relative;
+    background-color: white;
+    width: 28vw;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:normal;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 16px;
+}
+
+.img img{
+    width: 28vw;
+    border-radius: 16px;
+    align-self: center;
+    
+}
+
+.icon-container{
+
+    margin: 4px 0px;
+
+}
+.icon-container img{
+    
+    width: 20px;
+    margin-bottom: 4px;
+
+}
+
+.rest{
+    padding: 10px 16px;
+}
+
+.loc{
+    margin: 5px 0px;
+   
+}
+
+.loc img{
+    margin-right: 4px;
+    width: 14px;
+}
+
+.loc-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.861);
+}
+
+.adress{
+    color: rgba(0, 0, 0, 0.704);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 0.5px solid black;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dashed;
+}
+
+.foot .price{
+    color: rgb(57, 57, 254);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+button{
+    padding: 12px 16px;
+    border-radius: 24px;
+    font-weight: 780;
+    font-size: 15px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.for-rent{
+
+    padding: 12px 16px;
+    border-radius: 24px;
+    font-weight: 780;
+    font-size: 15px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+
+}
+
+.heart{
+
+    width: 25px;
+    border-radius: 40%;
+    border: none;
+    background-color: white;
+    padding: 8px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    color: white;
+
+}
